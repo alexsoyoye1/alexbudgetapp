@@ -1,0 +1,47 @@
+.expenses-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.add-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.add-inputs input {
+  font-size: 24px;
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+.expenses-form button {
+  border: none;
+  background-color: blue;
+  font-size: 20px;
+  width: 120px;
+  height: 100%;
+  margin: auto;
+
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.expenses-form button:hover {
+  background-color: skyblue;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .add-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+}

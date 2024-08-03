@@ -1,0 +1,17 @@
+.delete-section button {
+  border: none;
+  background-color: blue;
+  margin: auto;
+  height: 40%;
+  width: 120px;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.delete-section button:hover {
+  background-color: skyblue;
+  cursor: pointer;
+}
